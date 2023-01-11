@@ -1,3 +1,3 @@
-/mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles/emu-app.dir
-/mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles/edit_cache.dir
-/mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles/emu-app.dir
+/mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles/edit_cache.dir
+/mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles/rebuild_cache.dir

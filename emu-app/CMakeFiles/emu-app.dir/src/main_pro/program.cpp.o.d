@@ -1,5 +1,5 @@
 CMakeFiles/emu-app.dir/src/main_pro/program.cpp.o: \
- /mnt/hgfs/emu-main-cmake/emu-app/src/main_pro/program.cpp \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/main_pro/program.cpp \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stddef.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdio.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h \
@@ -15,24 +15,24 @@ CMakeFiles/emu-app.dir/src/main_pro/program.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdarg.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/share_type.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/lib_time.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/share_type.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/config_firm/config-default.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/config_firm/config-gzzg.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/config_firm/config-default.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/include/program.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/ffs.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/share_type.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_time.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/share_type.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/config_firm/config-default.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/config_firm/config-gzzg.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/config_firm/config-default.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/include/program.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/ffs.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./string.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./xlocale.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/include/app_debug_main.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/log.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/com_include.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/lib_time.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/include/app_debug_main.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/com_include.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_time.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/syslog.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/syslog-path.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/lib_io.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/tools.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_io.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/tools.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdlib.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
@@ -50,7 +50,7 @@ CMakeFiles/emu-app.dir/src/main_pro/program.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./dlfcn.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/dlfcn.h \
- /mnt/hgfs/emu-main-cmake/emu-app/src/include/cJSON.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/include/cJSON.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/include/stdint.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./stdint.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wchar.h \
@@ -105,7 +105,7 @@ CMakeFiles/emu-app.dir/src/main_pro/program.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/setjmp.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/c++/4.7.3/arm-linux-gnueabihf/./bits/atomic_word.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../lib/gcc/arm-linux-gnueabihf/4.7.3/../../../../arm-linux-gnueabihf/include/c++/4.7.3/bits/basic_string.tcc \
- /mnt/hgfs/emu-main-cmake/emu-app/src/common/log_main.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log_main.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./semaphore.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/semaphore.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./unistd.h \

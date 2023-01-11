@@ -15,18 +15,20 @@ set(CMAKE_CXX_COMPILER ${TOOLCHAIN_PATH}/bin/arm-linux-gnueabihf-g++)
 # 设置工程名
 project (DllCommon)
 
-
-
-
 aux_source_directory(${PROJECT_SOURCE_DIR} DIR_MAIN_SRCS)
 
-aux_source_directory(${PROJECT_SOURCE_DIR}/bas_protocol_104 DIR_104_SRCS)
+aux_source_directory(${PROJECT_SOURCE_DIR}/base_protocol_104 DIR_104_SRCS)
 
 aux_source_directory(${PROJECT_SOURCE_DIR}/common DIR_COMMON_SRCS)
 
 aux_source_directory(${PROJECT_SOURCE_DIR}/json DIR_JSON_SRCS)
+
+include_directories(${PROJECT_SOURCE_DIR}/bas_protocol_104)
+include_directories(${PROJECT_SOURCE_DIR}/json)
+include_directories(${PROJECT_SOURCE_DIR}/common)
 # 指定生成目标
 
 
-add_library(DllCommon SHARED ${DIR_MAIN_SRCS} ${DIR_104_SRCS} ${DIR_104_SRCS} ${DIR_JSON_SRCS})
+#add_library(DllCommon SHARED ${DIR_MAIN_SRCS} ${DIR_104_SRCS} ${DIR_104_SRCS} ${DIR_JSON_SRCS})
 
+add_library(DllCommon SHARED ${DIR_COMMON_SRCS} ${DIR_JSON_SRCS} ${DIR_104_SRCS})

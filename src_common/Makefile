@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/emu-main-cmake/src_common
+CMAKE_SOURCE_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/emu-main-cmake/src_common
+CMAKE_BINARY_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/src_common/CMakeFiles /mnt/hgfs/emu-main-cmake/src_common//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles /mnt/hgfs/off-zgemu/emu-main-cmake/src_common//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/src_common/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,270 @@ DllCommon/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/build
 .PHONY : DllCommon/fast
 
+base_protocol_104/standard104.o: base_protocol_104/standard104.cpp.o
+.PHONY : base_protocol_104/standard104.o
+
+# target to build an object file
+base_protocol_104/standard104.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o
+.PHONY : base_protocol_104/standard104.cpp.o
+
+base_protocol_104/standard104.i: base_protocol_104/standard104.cpp.i
+.PHONY : base_protocol_104/standard104.i
+
+# target to preprocess a source file
+base_protocol_104/standard104.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.i
+.PHONY : base_protocol_104/standard104.cpp.i
+
+base_protocol_104/standard104.s: base_protocol_104/standard104.cpp.s
+.PHONY : base_protocol_104/standard104.s
+
+# target to generate assembly for a file
+base_protocol_104/standard104.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.s
+.PHONY : base_protocol_104/standard104.cpp.s
+
+base_protocol_104/yl_socket.o: base_protocol_104/yl_socket.cpp.o
+.PHONY : base_protocol_104/yl_socket.o
+
+# target to build an object file
+base_protocol_104/yl_socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o
+.PHONY : base_protocol_104/yl_socket.cpp.o
+
+base_protocol_104/yl_socket.i: base_protocol_104/yl_socket.cpp.i
+.PHONY : base_protocol_104/yl_socket.i
+
+# target to preprocess a source file
+base_protocol_104/yl_socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.i
+.PHONY : base_protocol_104/yl_socket.cpp.i
+
+base_protocol_104/yl_socket.s: base_protocol_104/yl_socket.cpp.s
+.PHONY : base_protocol_104/yl_socket.s
+
+# target to generate assembly for a file
+base_protocol_104/yl_socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.s
+.PHONY : base_protocol_104/yl_socket.cpp.s
+
+common/ffs.o: common/ffs.cpp.o
+.PHONY : common/ffs.o
+
+# target to build an object file
+common/ffs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/ffs.cpp.o
+.PHONY : common/ffs.cpp.o
+
+common/ffs.i: common/ffs.cpp.i
+.PHONY : common/ffs.i
+
+# target to preprocess a source file
+common/ffs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/ffs.cpp.i
+.PHONY : common/ffs.cpp.i
+
+common/ffs.s: common/ffs.cpp.s
+.PHONY : common/ffs.s
+
+# target to generate assembly for a file
+common/ffs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/ffs.cpp.s
+.PHONY : common/ffs.cpp.s
+
+common/lib_io.o: common/lib_io.cpp.o
+.PHONY : common/lib_io.o
+
+# target to build an object file
+common/lib_io.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_io.cpp.o
+.PHONY : common/lib_io.cpp.o
+
+common/lib_io.i: common/lib_io.cpp.i
+.PHONY : common/lib_io.i
+
+# target to preprocess a source file
+common/lib_io.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_io.cpp.i
+.PHONY : common/lib_io.cpp.i
+
+common/lib_io.s: common/lib_io.cpp.s
+.PHONY : common/lib_io.s
+
+# target to generate assembly for a file
+common/lib_io.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_io.cpp.s
+.PHONY : common/lib_io.cpp.s
+
+common/lib_time.o: common/lib_time.cpp.o
+.PHONY : common/lib_time.o
+
+# target to build an object file
+common/lib_time.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_time.cpp.o
+.PHONY : common/lib_time.cpp.o
+
+common/lib_time.i: common/lib_time.cpp.i
+.PHONY : common/lib_time.i
+
+# target to preprocess a source file
+common/lib_time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_time.cpp.i
+.PHONY : common/lib_time.cpp.i
+
+common/lib_time.s: common/lib_time.cpp.s
+.PHONY : common/lib_time.s
+
+# target to generate assembly for a file
+common/lib_time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/lib_time.cpp.s
+.PHONY : common/lib_time.cpp.s
+
+common/libprotocol_scan.o: common/libprotocol_scan.c.o
+.PHONY : common/libprotocol_scan.o
+
+# target to build an object file
+common/libprotocol_scan.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o
+.PHONY : common/libprotocol_scan.c.o
+
+common/libprotocol_scan.i: common/libprotocol_scan.c.i
+.PHONY : common/libprotocol_scan.i
+
+# target to preprocess a source file
+common/libprotocol_scan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.i
+.PHONY : common/libprotocol_scan.c.i
+
+common/libprotocol_scan.s: common/libprotocol_scan.c.s
+.PHONY : common/libprotocol_scan.s
+
+# target to generate assembly for a file
+common/libprotocol_scan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.s
+.PHONY : common/libprotocol_scan.c.s
+
+common/log.o: common/log.cpp.o
+.PHONY : common/log.o
+
+# target to build an object file
+common/log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/log.cpp.o
+.PHONY : common/log.cpp.o
+
+common/log.i: common/log.cpp.i
+.PHONY : common/log.i
+
+# target to preprocess a source file
+common/log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/log.cpp.i
+.PHONY : common/log.cpp.i
+
+common/log.s: common/log.cpp.s
+.PHONY : common/log.s
+
+# target to generate assembly for a file
+common/log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/log.cpp.s
+.PHONY : common/log.cpp.s
+
+common/sm4.o: common/sm4.cpp.o
+.PHONY : common/sm4.o
+
+# target to build an object file
+common/sm4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sm4.cpp.o
+.PHONY : common/sm4.cpp.o
+
+common/sm4.i: common/sm4.cpp.i
+.PHONY : common/sm4.i
+
+# target to preprocess a source file
+common/sm4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sm4.cpp.i
+.PHONY : common/sm4.cpp.i
+
+common/sm4.s: common/sm4.cpp.s
+.PHONY : common/sm4.s
+
+# target to generate assembly for a file
+common/sm4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sm4.cpp.s
+.PHONY : common/sm4.cpp.s
+
+common/sys.o: common/sys.cpp.o
+.PHONY : common/sys.o
+
+# target to build an object file
+common/sys.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.o
+.PHONY : common/sys.cpp.o
+
+common/sys.i: common/sys.cpp.i
+.PHONY : common/sys.i
+
+# target to preprocess a source file
+common/sys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.i
+.PHONY : common/sys.cpp.i
+
+common/sys.s: common/sys.cpp.s
+.PHONY : common/sys.s
+
+# target to generate assembly for a file
+common/sys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.s
+.PHONY : common/sys.cpp.s
+
+common/tools.o: common/tools.cpp.o
+.PHONY : common/tools.o
+
+# target to build an object file
+common/tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/tools.cpp.o
+.PHONY : common/tools.cpp.o
+
+common/tools.i: common/tools.cpp.i
+.PHONY : common/tools.i
+
+# target to preprocess a source file
+common/tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/tools.cpp.i
+.PHONY : common/tools.cpp.i
+
+common/tools.s: common/tools.cpp.s
+.PHONY : common/tools.s
+
+# target to generate assembly for a file
+common/tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/tools.cpp.s
+.PHONY : common/tools.cpp.s
+
+common/utils.o: common/utils.cpp.o
+.PHONY : common/utils.o
+
+# target to build an object file
+common/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/utils.cpp.o
+.PHONY : common/utils.cpp.o
+
+common/utils.i: common/utils.cpp.i
+.PHONY : common/utils.i
+
+# target to preprocess a source file
+common/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/utils.cpp.i
+.PHONY : common/utils.cpp.i
+
+common/utils.s: common/utils.cpp.s
+.PHONY : common/utils.s
+
+# target to generate assembly for a file
+common/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/utils.cpp.s
+.PHONY : common/utils.cpp.s
+
 json/cJSON.o: json/cJSON.cpp.o
 .PHONY : json/cJSON.o
 
@@ -162,6 +426,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DllCommon"
+	@echo "... base_protocol_104/standard104.o"
+	@echo "... base_protocol_104/standard104.i"
+	@echo "... base_protocol_104/standard104.s"
+	@echo "... base_protocol_104/yl_socket.o"
+	@echo "... base_protocol_104/yl_socket.i"
+	@echo "... base_protocol_104/yl_socket.s"
+	@echo "... common/ffs.o"
+	@echo "... common/ffs.i"
+	@echo "... common/ffs.s"
+	@echo "... common/lib_io.o"
+	@echo "... common/lib_io.i"
+	@echo "... common/lib_io.s"
+	@echo "... common/lib_time.o"
+	@echo "... common/lib_time.i"
+	@echo "... common/lib_time.s"
+	@echo "... common/libprotocol_scan.o"
+	@echo "... common/libprotocol_scan.i"
+	@echo "... common/libprotocol_scan.s"
+	@echo "... common/log.o"
+	@echo "... common/log.i"
+	@echo "... common/log.s"
+	@echo "... common/sm4.o"
+	@echo "... common/sm4.i"
+	@echo "... common/sm4.s"
+	@echo "... common/sys.o"
+	@echo "... common/sys.i"
+	@echo "... common/sys.s"
+	@echo "... common/tools.o"
+	@echo "... common/tools.i"
+	@echo "... common/tools.s"
+	@echo "... common/utils.o"
+	@echo "... common/utils.i"
+	@echo "... common/utils.s"
 	@echo "... json/cJSON.o"
 	@echo "... json/cJSON.i"
 	@echo "... json/cJSON.s"

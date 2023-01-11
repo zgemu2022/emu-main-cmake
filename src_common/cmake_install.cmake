@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/hgfs/emu-main-cmake/src_common
+# Install script for directory: /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/hgfs/emu-main-cmake/src_common/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

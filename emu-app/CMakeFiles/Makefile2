@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/emu-main-cmake/emu-app
+CMAKE_SOURCE_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/emu-main-cmake/emu-app
+CMAKE_BINARY_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/emu-app.dir/clean
 CMakeFiles/emu-app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu-app.dir/build.make CMakeFiles/emu-app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emu-app.dir/build.make CMakeFiles/emu-app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles --progress-num=1,2,3,4 "Built target emu-app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles --progress-num=1,2,3,4 "Built target emu-app"
 .PHONY : CMakeFiles/emu-app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/emu-app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/emu-app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles 0
 .PHONY : CMakeFiles/emu-app.dir/rule
 
 # Convenience name for target.

@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/emu-main-cmake/emu-app
+CMAKE_SOURCE_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/emu-main-cmake/emu-app
+CMAKE_BINARY_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles /mnt/hgfs/emu-main-cmake/emu-app//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/emu-main-cmake/emu-app/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

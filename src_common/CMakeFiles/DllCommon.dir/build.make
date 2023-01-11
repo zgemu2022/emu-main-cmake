@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/emu-main-cmake/src_common
+CMAKE_SOURCE_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/emu-main-cmake/src_common
+CMAKE_BINARY_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DllCommon.dir/depend.make
@@ -69,31 +69,207 @@ include CMakeFiles/DllCommon.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DllCommon.dir/flags.make
 
+CMakeFiles/DllCommon.dir/common/ffs.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/ffs.cpp.o: common/ffs.cpp
+CMakeFiles/DllCommon.dir/common/ffs.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DllCommon.dir/common/ffs.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/ffs.cpp.o -MF CMakeFiles/DllCommon.dir/common/ffs.cpp.o.d -o CMakeFiles/DllCommon.dir/common/ffs.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/ffs.cpp
+
+CMakeFiles/DllCommon.dir/common/ffs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/ffs.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/ffs.cpp > CMakeFiles/DllCommon.dir/common/ffs.cpp.i
+
+CMakeFiles/DllCommon.dir/common/ffs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/ffs.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/ffs.cpp -o CMakeFiles/DllCommon.dir/common/ffs.cpp.s
+
+CMakeFiles/DllCommon.dir/common/lib_io.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/lib_io.cpp.o: common/lib_io.cpp
+CMakeFiles/DllCommon.dir/common/lib_io.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DllCommon.dir/common/lib_io.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/lib_io.cpp.o -MF CMakeFiles/DllCommon.dir/common/lib_io.cpp.o.d -o CMakeFiles/DllCommon.dir/common/lib_io.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_io.cpp
+
+CMakeFiles/DllCommon.dir/common/lib_io.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/lib_io.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_io.cpp > CMakeFiles/DllCommon.dir/common/lib_io.cpp.i
+
+CMakeFiles/DllCommon.dir/common/lib_io.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/lib_io.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_io.cpp -o CMakeFiles/DllCommon.dir/common/lib_io.cpp.s
+
+CMakeFiles/DllCommon.dir/common/lib_time.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/lib_time.cpp.o: common/lib_time.cpp
+CMakeFiles/DllCommon.dir/common/lib_time.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DllCommon.dir/common/lib_time.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/lib_time.cpp.o -MF CMakeFiles/DllCommon.dir/common/lib_time.cpp.o.d -o CMakeFiles/DllCommon.dir/common/lib_time.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_time.cpp
+
+CMakeFiles/DllCommon.dir/common/lib_time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/lib_time.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_time.cpp > CMakeFiles/DllCommon.dir/common/lib_time.cpp.i
+
+CMakeFiles/DllCommon.dir/common/lib_time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/lib_time.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_time.cpp -o CMakeFiles/DllCommon.dir/common/lib_time.cpp.s
+
+CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o: common/libprotocol_scan.c
+CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o -MF CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o.d -o CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/libprotocol_scan.c
+
+CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/libprotocol_scan.c > CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.i
+
+CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/libprotocol_scan.c -o CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.s
+
+CMakeFiles/DllCommon.dir/common/log.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/log.cpp.o: common/log.cpp
+CMakeFiles/DllCommon.dir/common/log.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DllCommon.dir/common/log.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/log.cpp.o -MF CMakeFiles/DllCommon.dir/common/log.cpp.o.d -o CMakeFiles/DllCommon.dir/common/log.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/log.cpp
+
+CMakeFiles/DllCommon.dir/common/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/log.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/log.cpp > CMakeFiles/DllCommon.dir/common/log.cpp.i
+
+CMakeFiles/DllCommon.dir/common/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/log.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/log.cpp -o CMakeFiles/DllCommon.dir/common/log.cpp.s
+
+CMakeFiles/DllCommon.dir/common/sm4.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/sm4.cpp.o: common/sm4.cpp
+CMakeFiles/DllCommon.dir/common/sm4.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DllCommon.dir/common/sm4.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/sm4.cpp.o -MF CMakeFiles/DllCommon.dir/common/sm4.cpp.o.d -o CMakeFiles/DllCommon.dir/common/sm4.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sm4.cpp
+
+CMakeFiles/DllCommon.dir/common/sm4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/sm4.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sm4.cpp > CMakeFiles/DllCommon.dir/common/sm4.cpp.i
+
+CMakeFiles/DllCommon.dir/common/sm4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/sm4.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sm4.cpp -o CMakeFiles/DllCommon.dir/common/sm4.cpp.s
+
+CMakeFiles/DllCommon.dir/common/sys.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/sys.cpp.o: common/sys.cpp
+CMakeFiles/DllCommon.dir/common/sys.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DllCommon.dir/common/sys.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/sys.cpp.o -MF CMakeFiles/DllCommon.dir/common/sys.cpp.o.d -o CMakeFiles/DllCommon.dir/common/sys.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp
+
+CMakeFiles/DllCommon.dir/common/sys.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/sys.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp > CMakeFiles/DllCommon.dir/common/sys.cpp.i
+
+CMakeFiles/DllCommon.dir/common/sys.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/sys.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp -o CMakeFiles/DllCommon.dir/common/sys.cpp.s
+
+CMakeFiles/DllCommon.dir/common/tools.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/tools.cpp.o: common/tools.cpp
+CMakeFiles/DllCommon.dir/common/tools.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DllCommon.dir/common/tools.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/tools.cpp.o -MF CMakeFiles/DllCommon.dir/common/tools.cpp.o.d -o CMakeFiles/DllCommon.dir/common/tools.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/tools.cpp
+
+CMakeFiles/DllCommon.dir/common/tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/tools.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/tools.cpp > CMakeFiles/DllCommon.dir/common/tools.cpp.i
+
+CMakeFiles/DllCommon.dir/common/tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/tools.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/tools.cpp -o CMakeFiles/DllCommon.dir/common/tools.cpp.s
+
+CMakeFiles/DllCommon.dir/common/utils.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/utils.cpp.o: common/utils.cpp
+CMakeFiles/DllCommon.dir/common/utils.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DllCommon.dir/common/utils.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/utils.cpp.o -MF CMakeFiles/DllCommon.dir/common/utils.cpp.o.d -o CMakeFiles/DllCommon.dir/common/utils.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/utils.cpp
+
+CMakeFiles/DllCommon.dir/common/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/utils.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/utils.cpp > CMakeFiles/DllCommon.dir/common/utils.cpp.i
+
+CMakeFiles/DllCommon.dir/common/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/utils.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/utils.cpp -o CMakeFiles/DllCommon.dir/common/utils.cpp.s
+
 CMakeFiles/DllCommon.dir/json/cJSON.cpp.o: CMakeFiles/DllCommon.dir/flags.make
 CMakeFiles/DllCommon.dir/json/cJSON.cpp.o: json/cJSON.cpp
 CMakeFiles/DllCommon.dir/json/cJSON.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DllCommon.dir/json/cJSON.cpp.o"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/json/cJSON.cpp.o -MF CMakeFiles/DllCommon.dir/json/cJSON.cpp.o.d -o CMakeFiles/DllCommon.dir/json/cJSON.cpp.o -c /mnt/hgfs/emu-main-cmake/src_common/json/cJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DllCommon.dir/json/cJSON.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/json/cJSON.cpp.o -MF CMakeFiles/DllCommon.dir/json/cJSON.cpp.o.d -o CMakeFiles/DllCommon.dir/json/cJSON.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/json/cJSON.cpp
 
 CMakeFiles/DllCommon.dir/json/cJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/json/cJSON.cpp.i"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/emu-main-cmake/src_common/json/cJSON.cpp > CMakeFiles/DllCommon.dir/json/cJSON.cpp.i
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/json/cJSON.cpp > CMakeFiles/DllCommon.dir/json/cJSON.cpp.i
 
 CMakeFiles/DllCommon.dir/json/cJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/json/cJSON.cpp.s"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/emu-main-cmake/src_common/json/cJSON.cpp -o CMakeFiles/DllCommon.dir/json/cJSON.cpp.s
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/json/cJSON.cpp -o CMakeFiles/DllCommon.dir/json/cJSON.cpp.s
+
+CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o: base_protocol_104/standard104.cpp
+CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o -MF CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o.d -o CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/standard104.cpp
+
+CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/standard104.cpp > CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.i
+
+CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/standard104.cpp -o CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.s
+
+CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o: base_protocol_104/yl_socket.cpp
+CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o -MF CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o.d -o CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/yl_socket.cpp
+
+CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/yl_socket.cpp > CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.i
+
+CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/base_protocol_104/yl_socket.cpp -o CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.s
 
 # Object files for target DllCommon
 DllCommon_OBJECTS = \
-"CMakeFiles/DllCommon.dir/json/cJSON.cpp.o"
+"CMakeFiles/DllCommon.dir/common/ffs.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/lib_io.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/lib_time.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o" \
+"CMakeFiles/DllCommon.dir/common/log.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/sm4.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/sys.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/tools.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/utils.cpp.o" \
+"CMakeFiles/DllCommon.dir/json/cJSON.cpp.o" \
+"CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o" \
+"CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o"
 
 # External object files for target DllCommon
 DllCommon_EXTERNAL_OBJECTS =
 
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/ffs.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/lib_io.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/lib_time.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/log.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/sm4.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/sys.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/tools.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/utils.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/json/cJSON.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/base_protocol_104/standard104.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/build.make
 libDllCommon.so: CMakeFiles/DllCommon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libDllCommon.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX shared library libDllCommon.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DllCommon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +281,6 @@ CMakeFiles/DllCommon.dir/clean:
 .PHONY : CMakeFiles/DllCommon.dir/clean
 
 CMakeFiles/DllCommon.dir/depend:
-	cd /mnt/hgfs/emu-main-cmake/src_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/emu-main-cmake/src_common /mnt/hgfs/emu-main-cmake/src_common /mnt/hgfs/emu-main-cmake/src_common /mnt/hgfs/emu-main-cmake/src_common /mnt/hgfs/emu-main-cmake/src_common/CMakeFiles/DllCommon.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/off-zgemu/emu-main-cmake/src_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/off-zgemu/emu-main-cmake/src_common /mnt/hgfs/off-zgemu/emu-main-cmake/src_common /mnt/hgfs/off-zgemu/emu-main-cmake/src_common /mnt/hgfs/off-zgemu/emu-main-cmake/src_common /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles/DllCommon.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DllCommon.dir/depend
 

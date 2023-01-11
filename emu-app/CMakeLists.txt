@@ -30,7 +30,8 @@ target_link_libraries (emu-app  ${PROJECT_SOURCE_DIR}/src/lib/libDllCommon.so)
 
 
 TARGET_LINK_LIBRARIES(emu-app dl)
-
+TARGET_LINK_LIBRARIES(emu-app pthread)
+TARGET_LINK_LIBRARIES(emu-app rt)
 #LINK_LIBRARIES("${PROJECT_SOURCE_DIR}/src/lib/libDllCommon.so")
 #link_directories("${PROJECT_SOURCE_DIR}/src/lib") #添加动态连接库的路径
 

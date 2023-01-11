@@ -1,9 +1,9 @@
-CMakeFiles/emu-app.dir/src/common/log_main.cpp.o: \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log_main.cpp \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log_main.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/com_include.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_time.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/share_type.h \
+CMakeFiles/DllCommon.dir/common/log.cpp.o: \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/log.cpp \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/log.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/com_include.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_time.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/share_type.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/syslog.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./features.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h \
@@ -21,9 +21,8 @@ CMakeFiles/emu-app.dir/src/common/log_main.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./wchar.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_io.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/tools.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/lib_io.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/tools.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./time.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/timex.h \
@@ -49,6 +48,7 @@ CMakeFiles/emu-app.dir/src/common/log_main.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/include/program.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/share_type.h \
- /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/lib_time.h
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./pthread.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./sched.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/setjmp.h
