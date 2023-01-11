@@ -1,0 +1,1 @@
+/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ "CMakeFiles/emu-app.dir/src/main_pro/TaskMain.cpp.o" "CMakeFiles/emu-app.dir/src/main_pro/program.cpp.o" "CMakeFiles/emu-app.dir/src/common/log_main.cpp.o" -o emu-app   -L/mnt/hgfs/emu-main-cmake/emu-app/src/lib  -Wl,-rpath,/mnt/hgfs/emu-main-cmake/emu-app/src/lib -lDllCommon -ldl 
