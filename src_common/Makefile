@@ -48,27 +48,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/cmake-3.25/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/cmake-3.25/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
+CMAKE_SOURCE_DIR = /media/sf_work/zgEMU/emu-main-cmake/src_common
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/off-zgemu/emu-main-cmake/src_common
+CMAKE_BINARY_DIR = /media/sf_work/zgEMU/emu-main-cmake/src_common
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/cmake-3.25/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/cmake-3.25/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles /mnt/hgfs/off-zgemu/emu-main-cmake/src_common//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/sf_work/zgEMU/emu-main-cmake/src_common/CMakeFiles /media/sf_work/zgEMU/emu-main-cmake/src_common//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/sf_work/zgEMU/emu-main-cmake/src_common/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,102 @@ base_protocol_104/yl_socket.s: base_protocol_104/yl_socket.cpp.s
 base_protocol_104/yl_socket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/base_protocol_104/yl_socket.cpp.s
 .PHONY : base_protocol_104/yl_socket.cpp.s
+
+common/crc/crc16_check.o: common/crc/crc16_check.c.o
+.PHONY : common/crc/crc16_check.o
+
+# target to build an object file
+common/crc/crc16_check.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc16_check.c.o
+.PHONY : common/crc/crc16_check.c.o
+
+common/crc/crc16_check.i: common/crc/crc16_check.c.i
+.PHONY : common/crc/crc16_check.i
+
+# target to preprocess a source file
+common/crc/crc16_check.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc16_check.c.i
+.PHONY : common/crc/crc16_check.c.i
+
+common/crc/crc16_check.s: common/crc/crc16_check.c.s
+.PHONY : common/crc/crc16_check.s
+
+# target to generate assembly for a file
+common/crc/crc16_check.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc16_check.c.s
+.PHONY : common/crc/crc16_check.c.s
+
+common/crc/crc_cal_by_bit.o: common/crc/crc_cal_by_bit.c.o
+.PHONY : common/crc/crc_cal_by_bit.o
+
+# target to build an object file
+common/crc/crc_cal_by_bit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_bit.c.o
+.PHONY : common/crc/crc_cal_by_bit.c.o
+
+common/crc/crc_cal_by_bit.i: common/crc/crc_cal_by_bit.c.i
+.PHONY : common/crc/crc_cal_by_bit.i
+
+# target to preprocess a source file
+common/crc/crc_cal_by_bit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_bit.c.i
+.PHONY : common/crc/crc_cal_by_bit.c.i
+
+common/crc/crc_cal_by_bit.s: common/crc/crc_cal_by_bit.c.s
+.PHONY : common/crc/crc_cal_by_bit.s
+
+# target to generate assembly for a file
+common/crc/crc_cal_by_bit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_bit.c.s
+.PHONY : common/crc/crc_cal_by_bit.c.s
+
+common/crc/crc_cal_by_byte.o: common/crc/crc_cal_by_byte.c.o
+.PHONY : common/crc/crc_cal_by_byte.o
+
+# target to build an object file
+common/crc/crc_cal_by_byte.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_byte.c.o
+.PHONY : common/crc/crc_cal_by_byte.c.o
+
+common/crc/crc_cal_by_byte.i: common/crc/crc_cal_by_byte.c.i
+.PHONY : common/crc/crc_cal_by_byte.i
+
+# target to preprocess a source file
+common/crc/crc_cal_by_byte.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_byte.c.i
+.PHONY : common/crc/crc_cal_by_byte.c.i
+
+common/crc/crc_cal_by_byte.s: common/crc/crc_cal_by_byte.c.s
+.PHONY : common/crc/crc_cal_by_byte.s
+
+# target to generate assembly for a file
+common/crc/crc_cal_by_byte.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_byte.c.s
+.PHONY : common/crc/crc_cal_by_byte.c.s
+
+common/crc/crc_cal_by_halfbyte.o: common/crc/crc_cal_by_halfbyte.c.o
+.PHONY : common/crc/crc_cal_by_halfbyte.o
+
+# target to build an object file
+common/crc/crc_cal_by_halfbyte.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_halfbyte.c.o
+.PHONY : common/crc/crc_cal_by_halfbyte.c.o
+
+common/crc/crc_cal_by_halfbyte.i: common/crc/crc_cal_by_halfbyte.c.i
+.PHONY : common/crc/crc_cal_by_halfbyte.i
+
+# target to preprocess a source file
+common/crc/crc_cal_by_halfbyte.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_halfbyte.c.i
+.PHONY : common/crc/crc_cal_by_halfbyte.c.i
+
+common/crc/crc_cal_by_halfbyte.s: common/crc/crc_cal_by_halfbyte.c.s
+.PHONY : common/crc/crc_cal_by_halfbyte.s
+
+# target to generate assembly for a file
+common/crc/crc_cal_by_halfbyte.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/crc/crc_cal_by_halfbyte.c.s
+.PHONY : common/crc/crc_cal_by_halfbyte.c.s
 
 common/ffs.o: common/ffs.cpp.o
 .PHONY : common/ffs.o
@@ -432,6 +528,18 @@ help:
 	@echo "... base_protocol_104/yl_socket.o"
 	@echo "... base_protocol_104/yl_socket.i"
 	@echo "... base_protocol_104/yl_socket.s"
+	@echo "... common/crc/crc16_check.o"
+	@echo "... common/crc/crc16_check.i"
+	@echo "... common/crc/crc16_check.s"
+	@echo "... common/crc/crc_cal_by_bit.o"
+	@echo "... common/crc/crc_cal_by_bit.i"
+	@echo "... common/crc/crc_cal_by_bit.s"
+	@echo "... common/crc/crc_cal_by_byte.o"
+	@echo "... common/crc/crc_cal_by_byte.i"
+	@echo "... common/crc/crc_cal_by_byte.s"
+	@echo "... common/crc/crc_cal_by_halfbyte.o"
+	@echo "... common/crc/crc_cal_by_halfbyte.i"
+	@echo "... common/crc/crc_cal_by_halfbyte.s"
 	@echo "... common/ffs.o"
 	@echo "... common/ffs.i"
 	@echo "... common/ffs.s"
