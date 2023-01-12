@@ -321,29 +321,29 @@ common/sm4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sm4.cpp.s
 .PHONY : common/sm4.cpp.s
 
-common/sys.o: common/sys.cpp.o
+common/sys.o: common/sys.c.o
 .PHONY : common/sys.o
 
 # target to build an object file
-common/sys.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.o
-.PHONY : common/sys.cpp.o
+common/sys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.c.o
+.PHONY : common/sys.c.o
 
-common/sys.i: common/sys.cpp.i
+common/sys.i: common/sys.c.i
 .PHONY : common/sys.i
 
 # target to preprocess a source file
-common/sys.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.i
-.PHONY : common/sys.cpp.i
+common/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.c.i
+.PHONY : common/sys.c.i
 
-common/sys.s: common/sys.cpp.s
+common/sys.s: common/sys.c.s
 .PHONY : common/sys.s
 
 # target to generate assembly for a file
-common/sys.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.cpp.s
-.PHONY : common/sys.cpp.s
+common/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DllCommon.dir/build.make CMakeFiles/DllCommon.dir/common/sys.c.s
+.PHONY : common/sys.c.s
 
 common/tools.o: common/tools.cpp.o
 .PHONY : common/tools.o

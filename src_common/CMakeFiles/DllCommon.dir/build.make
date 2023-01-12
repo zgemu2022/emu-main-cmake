@@ -153,19 +153,19 @@ CMakeFiles/DllCommon.dir/common/sm4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/sm4.cpp.s"
 	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sm4.cpp -o CMakeFiles/DllCommon.dir/common/sm4.cpp.s
 
-CMakeFiles/DllCommon.dir/common/sys.cpp.o: CMakeFiles/DllCommon.dir/flags.make
-CMakeFiles/DllCommon.dir/common/sys.cpp.o: common/sys.cpp
-CMakeFiles/DllCommon.dir/common/sys.cpp.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DllCommon.dir/common/sys.cpp.o"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/sys.cpp.o -MF CMakeFiles/DllCommon.dir/common/sys.cpp.o.d -o CMakeFiles/DllCommon.dir/common/sys.cpp.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp
+CMakeFiles/DllCommon.dir/common/sys.c.o: CMakeFiles/DllCommon.dir/flags.make
+CMakeFiles/DllCommon.dir/common/sys.c.o: common/sys.c
+CMakeFiles/DllCommon.dir/common/sys.c.o: CMakeFiles/DllCommon.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/off-zgemu/emu-main-cmake/src_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/DllCommon.dir/common/sys.c.o"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/DllCommon.dir/common/sys.c.o -MF CMakeFiles/DllCommon.dir/common/sys.c.o.d -o CMakeFiles/DllCommon.dir/common/sys.c.o -c /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.c
 
-CMakeFiles/DllCommon.dir/common/sys.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DllCommon.dir/common/sys.cpp.i"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp > CMakeFiles/DllCommon.dir/common/sys.cpp.i
+CMakeFiles/DllCommon.dir/common/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DllCommon.dir/common/sys.c.i"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.c > CMakeFiles/DllCommon.dir/common/sys.c.i
 
-CMakeFiles/DllCommon.dir/common/sys.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DllCommon.dir/common/sys.cpp.s"
-	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.cpp -o CMakeFiles/DllCommon.dir/common/sys.cpp.s
+CMakeFiles/DllCommon.dir/common/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DllCommon.dir/common/sys.c.s"
+	/opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/off-zgemu/emu-main-cmake/src_common/common/sys.c -o CMakeFiles/DllCommon.dir/common/sys.c.s
 
 CMakeFiles/DllCommon.dir/common/tools.cpp.o: CMakeFiles/DllCommon.dir/flags.make
 CMakeFiles/DllCommon.dir/common/tools.cpp.o: common/tools.cpp
@@ -245,7 +245,7 @@ DllCommon_OBJECTS = \
 "CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o" \
 "CMakeFiles/DllCommon.dir/common/log.cpp.o" \
 "CMakeFiles/DllCommon.dir/common/sm4.cpp.o" \
-"CMakeFiles/DllCommon.dir/common/sys.cpp.o" \
+"CMakeFiles/DllCommon.dir/common/sys.c.o" \
 "CMakeFiles/DllCommon.dir/common/tools.cpp.o" \
 "CMakeFiles/DllCommon.dir/common/utils.cpp.o" \
 "CMakeFiles/DllCommon.dir/json/cJSON.cpp.o" \
@@ -261,7 +261,7 @@ libDllCommon.so: CMakeFiles/DllCommon.dir/common/lib_time.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/common/libprotocol_scan.c.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/common/log.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/common/sm4.cpp.o
-libDllCommon.so: CMakeFiles/DllCommon.dir/common/sys.cpp.o
+libDllCommon.so: CMakeFiles/DllCommon.dir/common/sys.c.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/common/tools.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/common/utils.cpp.o
 libDllCommon.so: CMakeFiles/DllCommon.dir/json/cJSON.cpp.o

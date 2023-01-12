@@ -17,12 +17,14 @@
 //
 #define FS_DAT_PATH "/usr/local/sanway/emu_doc" //默认路径，避免文件杂乱无章，统一放到files目录下  /home/root/sanway  /usr/local/sanway/dbTest
 #define MAX_FILE_SUPPORT 60 //最大支持文件数
-//#define PARA_START     0//#define PARA_BASIC_AREA    PARA_START
+//#define PARA_START     0
+//#define PARA_BASIC_AREA    PARA_START
 //#define PARA_MODEL_AREA     PARA_BASIC_AREA+64
 //#define PARA_END     PARA_MODEL_AREA+5000
 //#define SIZEOF_CHARGE_MODEL   256
 //
-//#define TRAN_RECORD_START  0//#define TRAN_RECORD_END     2560
+//#define TRAN_RECORD_START  0
+//#define TRAN_RECORD_END     2560
 //
 //#define TRAN_RECORD_START  0
 //#define TRAN_RECORD_END    MAX_RDSIZE_NAND
