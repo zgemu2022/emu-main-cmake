@@ -71,7 +71,8 @@ int os_rev_msgqueue(int __qid, void *__msgp, size_t __msgsz, long int __msgtyp, 
 				//				printf("收到数据   !!!!!!!!!!!!!收到 i=%d!\r\n",(int)i);
 				break;
 			}
-			usleep(10000);
+			// usleep(10000);
+			usleep(100);
 		}
 	}
 	return ret_value;
