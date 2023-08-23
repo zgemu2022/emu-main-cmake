@@ -56,7 +56,7 @@ void initLCD(void)
 	typedef int (*p_initlcd)(void *);
 	void *handle;
 	char *error;
-
+	printf("uuuuuuuuuuuuuuu\n");
 	p_initlcd my_func = NULL;
 
 	mc_para.pconfig = pconfig;

@@ -47,4 +47,11 @@ CMakeFiles/emu-app.dir/src/main_pro/TaskMain.cpp.o: \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sigset.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h \
  /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
- /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./alloca.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./unistd.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/confname.h \
+ /opt/gcc-linaro-arm-linux-gnueabihf-4.7-2013.03-20130313_linux/bin/../arm-linux-gnueabihf/libc/usr/include/./getopt.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/include/app_debug_main.h \
+ /mnt/hgfs/off-zgemu/emu-main-cmake/emu-app/src/common/log.h
